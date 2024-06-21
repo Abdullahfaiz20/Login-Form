@@ -1,0 +1,72 @@
+/* Add your CSS styles here */
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 15px 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#006A4E;
+    padding: 6px;
+  }
+  
+  .container {
+    background-color: #232926;
+    padding: 30px;
+    margin: 4px;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%; /* Responsive sizing #0af17a */
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    /* Add your styles for the login button here */
+    background-color: #006A4E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+#submit_3{
+    text-align: center;
+}
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
